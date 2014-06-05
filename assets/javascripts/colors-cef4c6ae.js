@@ -1,0 +1,1 @@
+!function(){var t,n;n=function(t){var n,r,c;for(c=t.match(/^rgb\((\d+),\s*(\d+),\s*(\d+)\)$/),delete c[0],r=1;3>=r;)c[r]=parseInt(c[r]).toString(16),1===c[r].length&&(c[r]="0"+c[r]),++r;n="#"+c.join("")},t="",$("div").click(function(){var r;r=$(this).css("backgroundColor"),n(r),alert(t)})}.call(this);
