@@ -7064,9 +7064,13 @@ th.hide-for-touch {
   min-width: inherit;
   max-width: 11.25rem; }
 
-/* line 7, /Users/dleuliette/sources/foundation-boilerplate/source/assets/stylesheets/modules/_colors.scss */
+/* line 6, /Users/dleuliette/sources/foundation-boilerplate/source/assets/stylesheets/modules/_global.scss */
+.m-content {
+  padding-top: 1.5625rem;
+  padding-bottom: 1.5625rem; }
+
+/* line 8, /Users/dleuliette/sources/foundation-boilerplate/source/assets/stylesheets/modules/_colors.scss */
 .color-list {
-  background-color: white;
   list-style: none;
   overflow: hidden; }
   /* line 12, /Users/dleuliette/sources/foundation-boilerplate/source/assets/stylesheets/modules/_colors.scss */
@@ -7074,34 +7078,65 @@ th.hide-for-touch {
     list-style: none;
     float: left;
     width: 6.25rem;
-    height: 6.25rem; }
-    /* line 18, /Users/dleuliette/sources/foundation-boilerplate/source/assets/stylesheets/modules/_colors.scss */
+    height: 6.25rem;
+    border: 5px solid white; }
+    /* line 19, /Users/dleuliette/sources/foundation-boilerplate/source/assets/stylesheets/modules/_colors.scss */
     .color-list li.primary {
       background-color: #008cba; }
-    /* line 21, /Users/dleuliette/sources/foundation-boilerplate/source/assets/stylesheets/modules/_colors.scss */
+    /* line 22, /Users/dleuliette/sources/foundation-boilerplate/source/assets/stylesheets/modules/_colors.scss */
     .color-list li.secondary {
       background-color: #e7e7e7; }
-    /* line 24, /Users/dleuliette/sources/foundation-boilerplate/source/assets/stylesheets/modules/_colors.scss */
+    /* line 25, /Users/dleuliette/sources/foundation-boilerplate/source/assets/stylesheets/modules/_colors.scss */
     .color-list li.alert {
       background-color: #f04124; }
-    /* line 27, /Users/dleuliette/sources/foundation-boilerplate/source/assets/stylesheets/modules/_colors.scss */
+    /* line 28, /Users/dleuliette/sources/foundation-boilerplate/source/assets/stylesheets/modules/_colors.scss */
     .color-list li.success {
       background-color: #43ac6a; }
-    /* line 30, /Users/dleuliette/sources/foundation-boilerplate/source/assets/stylesheets/modules/_colors.scss */
+    /* line 31, /Users/dleuliette/sources/foundation-boilerplate/source/assets/stylesheets/modules/_colors.scss */
     .color-list li.warning {
       background-color: #f08a24; }
-    /* line 33, /Users/dleuliette/sources/foundation-boilerplate/source/assets/stylesheets/modules/_colors.scss */
+    /* line 34, /Users/dleuliette/sources/foundation-boilerplate/source/assets/stylesheets/modules/_colors.scss */
     .color-list li.info {
       background-color: #a0d3e8; }
-    /* line 36, /Users/dleuliette/sources/foundation-boilerplate/source/assets/stylesheets/modules/_colors.scss */
+    /* line 37, /Users/dleuliette/sources/foundation-boilerplate/source/assets/stylesheets/modules/_colors.scss */
     .color-list li.body-bg {
       background-color: whitesmoke; }
-    /* line 39, /Users/dleuliette/sources/foundation-boilerplate/source/assets/stylesheets/modules/_colors.scss */
+    /* line 40, /Users/dleuliette/sources/foundation-boilerplate/source/assets/stylesheets/modules/_colors.scss */
     .color-list li.body-font {
       background-color: #222222; }
-    /* line 42, /Users/dleuliette/sources/foundation-boilerplate/source/assets/stylesheets/modules/_colors.scss */
+    /* line 43, /Users/dleuliette/sources/foundation-boilerplate/source/assets/stylesheets/modules/_colors.scss */
     .color-list li.header-font {
       background-color: #222222; }
-    /* line 45, /Users/dleuliette/sources/foundation-boilerplate/source/assets/stylesheets/modules/_colors.scss */
+    /* line 46, /Users/dleuliette/sources/foundation-boilerplate/source/assets/stylesheets/modules/_colors.scss */
     .color-list li.subheader-font {
       background-color: #6f6f6f; }
+
+/* line 1, /Users/dleuliette/sources/foundation-boilerplate/source/assets/stylesheets/modules/_header.scss */
+.m-masterhead {
+  background: #333333; }
+  /* line 4, /Users/dleuliette/sources/foundation-boilerplate/source/assets/stylesheets/modules/_header.scss */
+  .m-masterhead p {
+    color: #999999;
+    text-shadow: 0px 2px #000000; }
+
+/* line 10, /Users/dleuliette/sources/foundation-boilerplate/source/assets/stylesheets/modules/_header.scss */
+.m-masterhead--title {
+  color: white;
+  text-shadow: 0px 2px #000000;
+  margin-top: 3.125rem;
+  margin-bottom: 3.125rem; }
+
+/* line 17, /Users/dleuliette/sources/foundation-boilerplate/source/assets/stylesheets/modules/_header.scss */
+.m-masterhead--button {
+  margin-top: 1.5625rem;
+  margin-bottom: 3.125rem; }
+
+/* line 1, /Users/dleuliette/sources/foundation-boilerplate/source/assets/stylesheets/modules/_grid.scss */
+.m-display {
+  background: none repeat scroll 0% 0% #EEE;
+  font-size: 11px;
+  margin-bottom: 10px;
+  line-height: 2rem;
+  border: 1px solid #C6C6C6;
+  margin-left: 0px !important;
+  margin-right: 0px !important; }
