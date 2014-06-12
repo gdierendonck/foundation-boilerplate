@@ -1,1 +1,0 @@
-!function(){$(function(){return $(".color-list li").each(function(){var t;t=$(this).css("background-color"),$(this).html(t)}),$(".js-type").each(function(){var t,i;t=$(this).css("font-family"),i=$(this).css("font-weight"),$(this).append("<p>"+t+" "+i+"</p>")})})}.call(this);
