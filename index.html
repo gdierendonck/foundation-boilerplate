@@ -1,4 +1,142 @@
-<!DOCTYPE html><html class="no-js" lang="en"><head><meta charset="utf-8" /><meta content="width=device-width" name="viewport" /><meta content="IE=edge" http-equiv="X-UA-Compatible" /><title>Homepage | Foundation • Boilerplate</title><meta content="Foundation Boilerplate is a front-end template for building fast, scalable, and responsive web apps or sites. Help designer to code a strong set of guideline" name="description" /><meta content="index,follow" name="robots" /><link href="assets/stylesheets/application-6df0dfe3.css" media="screen" rel="stylesheet" type="text/css" /><link href="//cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css" media="screen" rel="stylesheet" type="text/css" /><script src="assets/javascripts/modernizr/modernizr.js" type="text/javascript"></script></head><body class="index"><header class="m-masterhead"><div class="alert-box info text-center">Work in Progress! Not quite ready for prime-time </div><div class="row"><div class="medium-6 columns"><h6 class="subheader">Foundation • Boilerplate</h6></div><div class="medium-6 columns"><ul class="inline-list right"><li><a href="https://github.com/flexbox/foundation-boilerplate">Source code</a></li><li><a href="https://github.com/flexbox/foundation-boilerplate/blob/master/README.md">Docs</a></li></ul></div></div><div class="row text-center"><div class="medium-8 medium-centered small-12 columns"><h1 class="m-masterhead--title">The web’s most popular responsive front-end template</h1><p>The most important starting points for any project is a set of guidelines. Foundation Boilerplate helps designer & developpers to build <strong>fast</strong>, <strong>scalable</strong>, and <strong>responsive</strong> web apps or sites. Use this boilerplate for your next project with the help of <a href="http://foundation.zurb.com/">Foundation framework</a>. </p></div></div><div class="row"><div class="medium-3 medium-centered columns"><a class="button large expand m-masterhead--button" href="https://github.com/flexbox/foundation-boilerplate/archive/gh-pages.zip">Download Boilerplate</a></div></div></header><div class="row m-content"><div class="medium-2 columns"><div class="hide-for-small" data-magellan-expedition="fixed"><h5>Table of contents</h5><nav><ul class="side-nav"><li data-magellan-arrival="grid"><a href="#grid">Grid</a></li><li data-magellan-arrival="css"><a href="#css">CSS</a></li><li data-magellan-arrival="colors"><a href="#colors">Colors</a></li><li data-magellan-arrival="typography"><a href="#typography">Typography</a></li><li data-magellan-arrival="icons"><a href="#icons">Icons</a></li><li data-magellan-arrival="lists"><a href="#lists">Lists</a></li><li data-magellan-arrival="buttons"><a href="#buttons">Buttons</a></li><li data-magellan-arrival="forms"><a href="#forms">Forms</a></li><li data-magellan-arrival="patterns"><a href="#patterns">Patterns</a></li><li class="divider"></li><li data-magellan-arrival="download"><a href="https://github.com/flexbox/foundation-boilerplate/archive/gh-pages.zip">Download</a></li></ul></nav></div></div><div class="medium-10 columns"><div class="row"><div class="small-12 medium-12 columns"><h2 data-magellan-destination="grid" id="grid">Grid</h2><h3>The Problem</h3><p>You've got tons of content, each needing different sized vertical columns, and don't know how to quick and easily get it all done.</p><h3>The Solution</h3><p>The awesome grid! The grid is built around three key elements: containers, rows, and columns.</p><ol><li>Containers create base padding for the page;</li><li>rows create a max-width and contain the columns;</li><li>and columns create the final structure.</li></ol><p><strong>Everything on your page</strong> that you don't give a specific structural style to should be within a container, row and column.</p><h3>How to Use</h3><p>Using this framework is easy. Here's how your code will look when you use a series of <code>div</code> tags to create vertical columns.</p><h3>Nesting Support</h3><p>In the Grid you can nest columns down as far as you'd like. Just embed rows inside columns and go from there. Each embedded row can contain up to number <code>$total-columns</code> defined in <code>_settings.scss</code>.</p></div></div><div class="row"><div class="small-6 medium-6 columns"><h4>HTML</h4><pre><code class="highlight html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"row"</span><span class="nt">&gt;</span>
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width" name="viewport" />
+    <meta content="IE=edge" http-equiv="X-UA-Compatible" />
+    <title>Homepage | Foundation • Boilerplate</title>
+    <meta content="Foundation Boilerplate is a front-end template for building fast, scalable, and responsive web apps or sites. Help designer to code a strong set of guideline" name="description" />
+    <meta content="index,follow" name="robots" />
+    <link href="assets/stylesheets/application-f8e76118.css" media="screen" rel="stylesheet" type="text/css" /><link href="//cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css" media="screen" rel="stylesheet" type="text/css" /><script src="assets/javascripts/modernizr/modernizr.js" type="text/javascript"></script>
+  </head>
+  <body class="index"><header class="m-masterhead">
+  <div class="alert-box info text-center">
+    Work in Progress! Not quite ready for prime-time 
+  </div>
+  <div class="row">
+    <div class="medium-6 columns">
+      <h6 class="subheader">
+        Foundation • Boilerplate
+      </h6>
+    </div>
+    <div class="medium-6 columns">
+      <ul class="inline-list right">
+        <li>
+          <a href="https://github.com/flexbox/foundation-boilerplate">Source code</a>
+        </li>
+        <li>
+          <a href="https://github.com/flexbox/foundation-boilerplate/blob/master/README.md">Docs</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="row text-center">
+    <div class="medium-8 medium-centered small-12 columns">
+      <h1 class="m-masterhead--title">
+        The web’s most popular responsive front-end template
+      </h1>
+      <p>
+        The most important starting points for any project is a set of guidelines. Foundation Boilerplate helps designer & developpers to build <strong>fast</strong>, <strong>scalable</strong>, and <strong>responsive</strong> web apps or sites. Use this boilerplate for your next project with the help of <a href="http://foundation.zurb.com/">Foundation framework</a>. 
+      </p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="medium-3 medium-centered columns">
+      <a class="button large expand m-masterhead--button" href="https://github.com/flexbox/foundation-boilerplate/archive/gh-pages.zip">Download Boilerplate</a>
+    </div>
+  </div>
+</header>
+<div class="row m-content">
+  <div class="medium-2 columns">
+    <div class="hide-for-small" data-magellan-expedition="fixed">
+      <h5>
+        Table of contents
+      </h5>
+      <nav>
+        <ul class="side-nav">
+          <li data-magellan-arrival="grid">
+            <a href="#grid">Grid</a>
+          </li>
+          <li data-magellan-arrival="css">
+            <a href="#css">CSS</a>
+          </li>
+          <li data-magellan-arrival="colors">
+            <a href="#colors">Colors</a>
+          </li>
+          <li data-magellan-arrival="typography">
+            <a href="#typography">Typography</a>
+          </li>
+          <li data-magellan-arrival="icons">
+            <a href="#icons">Icons</a>
+          </li>
+          <li data-magellan-arrival="lists">
+            <a href="#lists">Lists</a>
+          </li>
+          <li data-magellan-arrival="buttons">
+            <a href="#buttons">Buttons</a>
+          </li>
+          <li data-magellan-arrival="forms">
+            <a href="#forms">Forms</a>
+          </li>
+          <li data-magellan-arrival="patterns">
+            <a href="#patterns">Patterns</a>
+          </li>
+          <li class="divider"></li>
+          <li data-magellan-arrival="download">
+            <a href="https://github.com/flexbox/foundation-boilerplate/archive/gh-pages.zip">Download</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+  <div class="medium-10 columns"><div class="row">
+  <div class="small-12 medium-12 columns">
+    <h2 data-magellan-destination="grid" id="grid">
+      Grid
+    </h2>
+    <h3>
+      The Problem
+    </h3>
+    <p>
+      You've got tons of content, each needing different sized vertical columns, and don't know how to quick and easily get it all done.
+    </p>
+    <h3>
+      The Solution
+    </h3>
+    <p>
+      The awesome grid! The grid is built around three key elements: containers, rows, and columns.
+    </p>
+    <ol>
+      <li>
+        Containers create base padding for the page;
+      </li>
+      <li>
+        rows create a max-width and contain the columns;
+      </li>
+      <li>
+        and columns create the final structure.
+      </li>
+    </ol>
+    <p>
+      <strong>Everything on your page</strong> that you don't give a specific structural style to should be within a container, row and column.
+    </p>
+    <h3>
+      How to Use
+    </h3>
+    <p>Using this framework is easy. Here's how your code will look when you use a series of <code>div</code> tags to create vertical columns.
+    </p>
+    <h3>
+      Nesting Support
+    </h3>
+    <p>In the Grid you can nest columns down as far as you'd like. Just embed rows inside columns and go from there. Each embedded row can contain up to number <code>$total-columns</code> defined in <code>_settings.scss</code>.
+    </p>
+  </div>
+</div>
+<div class="row">
+  <div class="small-6 medium-6 columns">
+    <h4>
+      HTML
+    </h4><pre><code class="highlight html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"row"</span><span class="nt">&gt;</span>
   <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"small-2 large-4 columns"</span><span class="nt">&gt;</span>...<span class="nt">&lt;/div&gt;</span>
   <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"small-4 large-4 columns"</span><span class="nt">&gt;</span>...<span class="nt">&lt;/div&gt;</span>
   <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"small-6 large-4 columns"</span><span class="nt">&gt;</span>...<span class="nt">&lt;/div&gt;</span>
@@ -8,7 +146,80 @@
   <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"large-6 columns"</span><span class="nt">&gt;</span>...<span class="nt">&lt;/div&gt;</span>
 <span class="nt">&lt;/div&gt;</span>
 </code></pre>
-</div><div class="small-6 medium-6 columns"><h4>Rendered HTML</h4><div class="row m-display"><div class="small-2 large-4 columns"><span class="show-for-small">2</span><span class="hide-for-small">4</span></div><div class="small-4 large-4 columns">4 </div><div class="small-6 large-4 columns"><span class="show-for-small">6</span><span class="hide-for-small">4</span></div></div><div class="row m-display"><div class="large-6 columns"><span>6</span></div><div class="large-6 columns"><span>6</span></div></div></div></div><hr /><div class="row"><div class="small-12 medium-12 columns"><h2 data-magellan-destination="css" id="css">Maintaining CSS</h2><h3>When to Use</h3><p>Stylesheet maintenance can become overwhelming on large applications. Here are a few tips and tricks to keeping your sanity in a CSS heavy world.</p><h3>A Few Rules for Clean CSS</h3><ul><li><strong>Good Commenting.</strong><p>A stylesheet with clear comments that delineate each main section of code makes it a lot easier to find by scanning the page or using <kbd>cmd/ctrl</kbd> + <kbd>F</kbd> to search. </p></li><li><strong>Don't repeat yourself (DRY).</strong><p>Child element declarations should not repeat styles unless they override what is already there.</p></li><li><strong>Group elements.</strong><p>Keep parent/child elements near each other in the CSS. This not only helps you identify areas which can be pruned or cleaned up but also makes it easier on other users of the stylesheet.</p></li></ul><h3>Partial architecture</h3><p>If you are using Sass you could be face to this question: May i import Sass files before or after Foundation import?</p></div></div><div class="row"><div class="small-6 medium-6 columns"><h4>SCSS</h4><pre><code class="highlight scss"><span class="k">@import</span>
+
+  </div>
+  <div class="small-6 medium-6 columns">
+    <h4>
+      Rendered HTML
+    </h4>
+    <div class="row m-display">
+      <div class="small-2 large-4 columns">
+        <span class="show-for-small">2</span><span class="hide-for-small">4</span>
+      </div>
+      <div class="small-4 large-4 columns">
+        4 
+      </div>
+      <div class="small-6 large-4 columns">
+        <span class="show-for-small">6</span><span class="hide-for-small">4</span>
+      </div>
+    </div>
+    <div class="row m-display">
+      <div class="large-6 columns">
+        <span>6</span>
+      </div>
+      <div class="large-6 columns">
+        <span>6</span>
+      </div>
+    </div>
+  </div>
+</div>
+    <hr /><div class="row">
+  <div class="small-12 medium-12 columns">
+    <h2 data-magellan-destination="css" id="css">
+      Maintaining CSS
+    </h2>
+    <h3>
+      When to Use
+    </h3>
+    <p>
+      Stylesheet maintenance can become overwhelming on large applications. Here are a few tips and tricks to keeping your sanity in a CSS heavy world.
+    </p>
+    <h3>
+      A Few Rules for Clean CSS
+    </h3>
+    <ul>
+      <li>
+        <strong>Good Commenting.</strong>
+        <p>
+          A stylesheet with clear comments that delineate each main section of code makes it a lot easier to find by scanning the page or using <kbd>cmd/ctrl</kbd> + <kbd>F</kbd> to search. 
+        </p>
+      </li>
+      <li>
+        <strong>Don't repeat yourself (DRY).</strong>
+        <p>
+          Child element declarations should not repeat styles unless they override what is already there.
+        </p>
+      </li>
+      <li>
+        <strong>Group elements.</strong>
+        <p>
+          Keep parent/child elements near each other in the CSS. This not only helps you identify areas which can be pruned or cleaned up but also makes it easier on other users of the stylesheet.
+        </p>
+      </li>
+    </ul>
+    <h3>
+      Partial architecture
+    </h3>
+    <p>
+      If you are using Sass you could be face to this question: May i import Sass files before or after Foundation import?
+    </p>
+  </div>
+</div>
+<div class="row">
+  <div class="small-6 medium-6 columns">
+    <h4>
+      SCSS
+    </h4><pre><code class="highlight scss"><span class="k">@import</span>
   <span class="s2">"foundation/functions"</span><span class="o">,</span>
   <span class="s2">"settings"</span><span class="p">;</span>
 
@@ -24,20 +235,109 @@
   <span class="s2">"modules/my-branding"</span><span class="o">,</span>
   <span class="s2">"modules/my-buttons"</span><span class="p">;</span>
 </code></pre>
-</div><div class="small-6 medium-6 columns"><p>You can quickly modify variables in <code>_settings.scss</code> and have all the updates if you have decided to use bower. </p></div></div><hr /><div class="row"><div class="small-12 medium-12 columns"><h2 data-magellan-destination="colors" id="colors">UI Color Palette</h2><h3>When to Use</h3><p>By default, the middle range should be used before any other. We've labeled each color on the grid. Use the production code to match each color.</p></div></div><div class="row"><div class="small-4 columns"><h4>SCSS</h4><pre><code class="highlight scss"><span class="err">$</span><span class="nt">primary-color</span>
+
+  </div>
+  <div class="small-6 medium-6 columns">
+    <p>You can quickly modify variables in <code>_settings.scss</code> and have all the updates if you have decided to use bower. 
+    </p>
+  </div>
+</div>
+    <hr /><div class="row">
+  <div class="small-12 medium-12 columns">
+    <h2 data-magellan-destination="colors" id="colors">
+      UI Color Palette
+    </h2>
+    <h3>
+      When to Use
+    </h3>
+    <p>
+      By default, the middle range should be used before any other. We've labeled each color on the grid. Use the production code to match each color.
+    </p>
+  </div>
+</div>
+<div class="row">
+  <div class="small-4 columns">
+    <h4>
+      SCSS
+    </h4><pre><code class="highlight scss"><span class="err">$</span><span class="nt">primary-color</span>
 <span class="err">$</span><span class="nt">secondary-color</span>
 </code></pre>
-</div><div class="small-8 columns"><h4>Rendered HTML</h4><ul class="color-list"><li class="primary"></li><li class="secondary"></li></ul></div></div><div class="row"><div class="small-4 columns"><pre><code class="highlight scss"><span class="err">$</span><span class="nt">alert-color</span>
+
+  </div>
+  <div class="small-8 columns">
+    <h4>
+      Rendered HTML
+    </h4>
+    <ul class="color-list">
+      <li class="primary"></li>
+      <li class="secondary"></li>
+    </ul>
+  </div>
+</div>
+<div class="row">
+  <div class="small-4 columns"><pre><code class="highlight scss"><span class="err">$</span><span class="nt">alert-color</span>
 <span class="err">$</span><span class="nt">success-color</span>
 <span class="err">$</span><span class="nt">warning-color</span>
 <span class="err">$</span><span class="nt">info-color</span>
 </code></pre>
-</div><div class="small-8 columns"><ul class="color-list"><li class="alert"></li><li class="success"></li><li class="warning"></li><li class="info"></li></ul></div></div><div class="row"><div class="small-4 columns"><pre><code class="highlight scss"><span class="err">$</span><span class="nt">body-bg</span>
+
+  </div>
+  <div class="small-8 columns">
+    <ul class="color-list">
+      <li class="alert"></li>
+      <li class="success"></li>
+      <li class="warning"></li>
+      <li class="info"></li>
+    </ul>
+  </div>
+</div>
+<div class="row">
+  <div class="small-4 columns"><pre><code class="highlight scss"><span class="err">$</span><span class="nt">body-bg</span>
 <span class="err">$</span><span class="nt">body-font-color</span>
 <span class="err">$</span><span class="nt">header-font-color</span>
 <span class="err">$</span><span class="nt">subheader-font-color</span>
 </code></pre>
-</div><div class="small-8 columns"><ul class="color-list"><li class="body-bg"></li><li class="body-font"></li><li class="header-font"></li><li class="subheader-font"></li></ul></div></div><hr /><div class="row"><div class="small-12 medium-12 columns"><h2 data-magellan-destination="typography" id="typography">Typography</h2><h3>When to Use</h3><p>Headings are used to denote different sections of content, usually consisting of related paragraphs and other HTML elements. They range from h2 to h4 and should be styled in a clear hierarchy (i.e., largest to smallest).</p><h3>When to Use Paragraphs</h3><p>Paragraphs are groups of sentences, each with a lead (first sentence) and transition (last sentence). They are block level elements, meaning they stack vertically when repeated. Use them as such.</p><h3>Editing the CSS</h3><p>CSS for headings can be found in foundation.css while custom paragraph styles can be found in app.css.</p></div></div><div class="row"><div class="medium-4 columns"><h4>SCSS</h4><pre><code class="highlight scss"><span class="err">$</span><span class="nt">header-font-family</span>
+
+  </div>
+  <div class="small-8 columns">
+    <ul class="color-list">
+      <li class="body-bg"></li>
+      <li class="body-font"></li>
+      <li class="header-font"></li>
+      <li class="subheader-font"></li>
+    </ul>
+  </div>
+</div>
+    <hr /><div class="row">
+  <div class="small-12 medium-12 columns">
+    <h2 data-magellan-destination="typography" id="typography">
+      Typography
+    </h2>
+    <h3>
+      When to Use
+    </h3>
+    <p>
+      Headings are used to denote different sections of content, usually consisting of related paragraphs and other HTML elements. They range from h2 to h4 and should be styled in a clear hierarchy (i.e., largest to smallest).
+    </p>
+    <h3>
+      When to Use Paragraphs
+    </h3>
+    <p>
+      Paragraphs are groups of sentences, each with a lead (first sentence) and transition (last sentence). They are block level elements, meaning they stack vertically when repeated. Use them as such.
+    </p>
+    <h3>
+      Editing the CSS
+    </h3>
+    <p>
+      CSS for headings can be found in foundation.css while custom paragraph styles can be found in app.css.
+    </p>
+  </div>
+</div>
+<div class="row">
+  <div class="medium-4 columns">
+    <h4>
+      SCSS
+    </h4><pre><code class="highlight scss"><span class="err">$</span><span class="nt">header-font-family</span>
 <span class="err">$</span><span class="nt">header-font-weight</span>
 
 <span class="err">$</span><span class="nt">h1-font-size</span>
@@ -47,16 +347,138 @@
 <span class="err">$</span><span class="nt">h5-font-size</span>
 <span class="err">$</span><span class="nt">h6-font-size</span>
 </code></pre>
-</div><div class="medium-8 columns"><h4>Rendered HTML</h4><h1 class="js-type">h1 Header one <small>with a baseline</small></h1><h2 class="js-type">h2 Header two <small>with a baseline</small></h2><h3 class="js-type">h3 Header three <small>with a baseline</small></h3><h4 class="js-type">h4 Header four <small>with a baseline</small></h4><h5 class="js-type">h5 Header five <small>with a baseline</small></h5><h6 class="js-type">h6 Header six <small>with a baseline</small></h6></div></div><div class="row"><div class="medium-4 columns"><h4>SCSS</h4><pre><code class="highlight scss"><span class="err">$</span><span class="nt">body-font-family</span>
+
+  </div>
+  <div class="medium-8 columns">
+    <h4>
+      Rendered HTML
+    </h4>
+    <h1 class="js-type">
+      h1 Header one <small>with a baseline</small>
+    </h1>
+    <h2 class="js-type">
+      h2 Header two <small>with a baseline</small>
+    </h2>
+    <h3 class="js-type">
+      h3 Header three <small>with a baseline</small>
+    </h3>
+    <h4 class="js-type">
+      h4 Header four <small>with a baseline</small>
+    </h4>
+    <h5 class="js-type">
+      h5 Header five <small>with a baseline</small>
+    </h5>
+    <h6 class="js-type">
+      h6 Header six <small>with a baseline</small>
+    </h6>
+  </div>
+</div>
+<div class="row">
+  <div class="medium-4 columns">
+    <h4>
+      SCSS
+    </h4><pre><code class="highlight scss"><span class="err">$</span><span class="nt">body-font-family</span>
 <span class="err">$</span><span class="nt">body-font-weight</span>
 
 <span class="err">$</span><span class="nt">paragraph-font-size</span>
 </code></pre>
-</div><div class="medium-8 columns"><h4>Rendered HTML</h4><p class="js-type lead">Uh listen, do you know where Riverside Drive is? Yeah, sure, okay.</p><p class="js-type">What's going on? Where have you been all week? I'm sure that in 1985, plutonium is available at every corner drug store, but in 1955, it's a little hard to come by. Marty, I'm sorry, but I'm afraid you're stuck here. Because, you might regret it later in life.</p><div class="js-type"><blockquote>Don't worry. As long as you hit that wire with the connecting hook at precisely 88 miles per hour, the instance the lightning strikes the tower, everything will be fine. <cite>Doc</cite></blockquote></div><p class="text-right"><a href="typography/">More advanced examples &rarr;</a></p></div></div><hr /><div class="row"><div class="small-12 medium-12 columns"><h2 data-magellan-destination="icons" id="icons">Icons</h2><h3>Why use font icon ?</h3><p>You can customize your icons to be any size, color, style in CSS.</p></div></div><div class="row"><div class="small-4 medium-4 columns"><h4>HTML</h4><pre><code class="highlight html"><span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"fi-[icon] small"</span><span class="nt">&gt;&lt;/i&gt;</span>
+
+  </div>
+  <div class="medium-8 columns">
+    <h4>
+      Rendered HTML
+    </h4>
+    <p class="js-type lead">
+      Uh listen, do you know where Riverside Drive is? Yeah, sure, okay.
+    </p>
+    <p class="js-type">
+      What's going on? Where have you been all week? I'm sure that in 1985, plutonium is available at every corner drug store, but in 1955, it's a little hard to come by. Marty, I'm sorry, but I'm afraid you're stuck here. Because, you might regret it later in life.
+    </p>
+    <div class="js-type">
+      <blockquote>Don't worry. As long as you hit that wire with the connecting hook at precisely 88 miles per hour, the instance the lightning strikes the tower, everything will be fine. <cite>Doc</cite></blockquote>
+    </div>
+    <p class="text-right">
+      <a href="typography/">More advanced examples &rarr;</a>
+    </p>
+  </div>
+</div>
+    <hr /><div class="row">
+  <div class="small-12 medium-12 columns">
+    <h2 data-magellan-destination="icons" id="icons">
+      Icons
+    </h2>
+    <h3>
+      Why use font icon ?
+    </h3>
+    <p>
+      You can customize your icons to be any size, color, style in CSS.
+    </p>
+  </div>
+</div>
+<div class="row">
+  <div class="small-4 medium-4 columns">
+    <h4>
+      HTML
+    </h4><pre><code class="highlight html"><span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"fi-[icon] small"</span><span class="nt">&gt;&lt;/i&gt;</span>
 <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"fi-[icon] medium"</span><span class="nt">&gt;&lt;/i&gt;</span>
 <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"fi-[icon] large"</span><span class="nt">&gt;&lt;/i&gt;</span>
 </code></pre>
-</div><div class="small-8 medium-8 columns"><h4>Rendered HTML</h4><div class="row"><div class="small-4 columns"><i class="fi-html5 small"></i><i class="fi-html5 medium"></i><i class="fi-html5 large"></i></div><div class="small-4 columns"><i class="fi-css3 small"></i><i class="fi-css3 medium"></i><i class="fi-css3 large"></i></div><div class="small-4 columns"><i class="fi-layout small"></i><i class="fi-layout medium"></i><i class="fi-layout large"></i></div></div></div></div><p class="text-right"><a href="http://zurb.com/playground/foundation-icon-fonts-3">See the complete list &rarr;</a></p><hr /><div class="row"><div class="small-12 medium-12 columns"><h2 data-magellan-destination="lists" id="lists">Lists</h2><h3>When to Use</h3><p>Lists are great for presenting a series of related phrases or sentences that need to be read faster.</p><h3>Which to Use</h3><p>Foundation styles allow for a multitude of lists, including: <code>ul</code> for generic lists and <code>ol</code> for numbered lists.</p><h3>How to Use</h3><p>Note the code snippets under each subheading on the left; look there for required classes and list markup.</p><h3>Editing the CSS</h3><p>CSS for list styles can be found in <code>_settings.scss</code> and the variables are <code>$list-*</code>.</p></div></div><div class="row"><div class="small-6 medium-6 columns"><h4>HTML</h4><pre><code class="highlight html"><span class="nt">&lt;ul</span> <span class="na">class=</span><span class="s">"inline"</span><span class="nt">&gt;</span>
+
+  </div>
+  <div class="small-8 medium-8 columns">
+    <h4>
+      Rendered HTML
+    </h4>
+    <div class="row">
+      <div class="small-4 columns">
+        <i class="fi-html5 small"></i><i class="fi-html5 medium"></i><i class="fi-html5 large"></i>
+      </div>
+      <div class="small-4 columns">
+        <i class="fi-css3 small"></i><i class="fi-css3 medium"></i><i class="fi-css3 large"></i>
+      </div>
+      <div class="small-4 columns">
+        <i class="fi-layout small"></i><i class="fi-layout medium"></i><i class="fi-layout large"></i>
+      </div>
+    </div>
+  </div>
+</div>
+<p class="text-right">
+  <a href="http://zurb.com/playground/foundation-icon-fonts-3">See the complete list &rarr;</a>
+</p>
+    <hr /><div class="row">
+  <div class="small-12 medium-12 columns">
+    <h2 data-magellan-destination="lists" id="lists">
+      Lists
+    </h2>
+    <h3>
+      When to Use
+    </h3>
+    <p>
+      Lists are great for presenting a series of related phrases or sentences that need to be read faster.
+    </p>
+    <h3>
+      Which to Use
+    </h3>
+    <p>Foundation styles allow for a multitude of lists, including: <code>ul</code> for generic lists and <code>ol</code> for numbered lists.
+    </p>
+    <h3>
+      How to Use
+    </h3>
+    <p>
+      Note the code snippets under each subheading on the left; look there for required classes and list markup.
+    </p>
+    <h3>
+      Editing the CSS
+    </h3>
+    <p>CSS for list styles can be found in <code>_settings.scss</code> and the variables are <code>$list-*</code>.
+    </p>
+  </div>
+</div>
+<div class="row">
+  <div class="small-6 medium-6 columns">
+    <h4>
+      HTML
+    </h4><pre><code class="highlight html"><span class="nt">&lt;ul</span> <span class="na">class=</span><span class="s">"inline"</span><span class="nt">&gt;</span>
   <span class="nt">&lt;li&gt;</span>
     <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>inline-list element one<span class="nt">&lt;/a&gt;</span>
   <span class="nt">&lt;/li&gt;</span>
@@ -68,7 +490,92 @@
   <span class="nt">&lt;/li&gt;</span>
 <span class="nt">&lt;/ul&gt;</span>
 </code></pre>
-</div><div class="small-6 medium-6 columns"><h4>Rendered HTML</h4><ul class="inline-list"><li><a href="#">Element one</a></li><li><a href="#">Element two</a></li><li><a href="#">Element three</a></li></ul><ul><li>Plutonium</li><ul><li>Uranium</li><li>Neptunium</li><li>Américium</li></ul><li>Oxygen </li><li>Carbon</li></ul><ol><li>Black Mesa</li><li>Aperture Science</li></ol></div></div><hr /><div class="row"><div class="small-12 medium-12 columns"><h2 data-magellan-destination="buttons" id="buttons">Buttons</h2><h3>When to Use</h3><p>Buttons are tied to an action of some kind, whether that button is on a cheese dispenser or launches the rocket that you're strapped to. On the Web, we follow similar conventions.</p><h3>How to Use</h3><p>This solution is perfect when the button needs to submit a form of some kind.</p><p>Note: Make sure to keep <code>type="submit"</code> on the button tag. That's what tells Internet Explorer to submit the form. This doesn't matter for anchor tags.</p><h3>Using the Anchor Tag</h3><p>When you need the button to take you somewhere (e.g. a sign up button), this is the perfect solution.</p><h3>Editing the CSS</h3><p>SCSS variables for buttons can be found in <code>_settings.scss</code> try to search variables <code>$button-*</code></p></div></div><div class="row"><div class="small-6 medium-6 columns"><h4>HTML</h4><pre><code class="highlight html"><span class="c">&lt;!-- Size Classes --&gt;</span>
+
+  </div>
+  <div class="small-6 medium-6 columns">
+    <h4>
+      Rendered HTML
+    </h4>
+    <ul class="inline-list">
+      <li>
+        <a href="#">Element one</a>
+      </li>
+      <li>
+        <a href="#">Element two</a>
+      </li>
+      <li>
+        <a href="#">Element three</a>
+      </li>
+    </ul>
+    <ul>
+      <li>
+        Plutonium
+      </li>
+      <ul>
+        <li>
+          Uranium
+        </li>
+        <li>
+          Neptunium
+        </li>
+        <li>
+          Américium
+        </li>
+      </ul>
+      <li>
+        Oxygen 
+      </li>
+      <li>
+        Carbon
+      </li>
+    </ul>
+    <ol>
+      <li>
+        Black Mesa
+      </li>
+      <li>
+        Aperture Science
+      </li>
+    </ol>
+  </div>
+</div>
+    <hr /><div class="row">
+  <div class="small-12 medium-12 columns">
+    <h2 data-magellan-destination="buttons" id="buttons">
+      Buttons
+    </h2>
+    <h3>
+      When to Use
+    </h3>
+    <p>
+      Buttons are tied to an action of some kind, whether that button is on a cheese dispenser or launches the rocket that you're strapped to. On the Web, we follow similar conventions.
+    </p>
+    <h3>
+      How to Use
+    </h3>
+    <p>
+      This solution is perfect when the button needs to submit a form of some kind.
+    </p>
+    <p>Note: Make sure to keep <code>type="submit"</code> on the button tag. That's what tells Internet Explorer to submit the form. This doesn't matter for anchor tags.
+    </p>
+    <h3>
+      Using the Anchor Tag
+    </h3>
+    <p>
+      When you need the button to take you somewhere (e.g. a sign up button), this is the perfect solution.
+    </p>
+    <h3>
+      Editing the CSS
+    </h3>
+    <p>SCSS variables for buttons can be found in <code>_settings.scss</code> try to search variables <code>$button-*</code>
+    </p>
+  </div>
+</div>
+<div class="row">
+  <div class="small-6 medium-6 columns">
+    <h4>
+      HTML
+    </h4><pre><code class="highlight html"><span class="c">&lt;!-- Size Classes --&gt;</span>
 <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"#"</span> <span class="na">class=</span><span class="s">"button [tiny small large]"</span><span class="nt">&gt;</span>Default Button<span class="nt">&lt;/a&gt;</span>
 
 <span class="c">&lt;!-- Color Classes --&gt;</span>
@@ -83,7 +590,82 @@
 <span class="c">&lt;!-- Expand Class --&gt;</span>
 <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"#"</span> <span class="na">class=</span><span class="s">"button expand"</span><span class="nt">&gt;</span>Expanded Button<span class="nt">&lt;/a&gt;</span>
 </code></pre>
-</div><div class="small-6 medium-6 columns"><h4>Rendered HTML</h4><a class="button tiny" href="#">.button .tiny</a><div class="row"><div class="medium-4 columns"><a class="button secondary" href="#">.button .secondary</a></div><div class="medium-4 columns"><a class="button alert" href="#">.button .alert</a></div><div class="medium-4 columns"><a class="button success" href="#">.button .success</a></div></div><a class="button expand" href="#">.button .expand</a></div></div><hr /><div class="row"><div class="small-12 medium-12 columns"><h2 data-magellan-destination="forms" id="forms">Forms</h2><h3>Elements of a Form</h3><p>A form should be marked up using it's default HTML properties. The ones we make use of include (in hierarchical order):</p><ul><li>form</li><li>label</li><li>input</li><li>select</li><li>textarea</li><li>button</li></ul><h3>How to Use</h3><p>Make forms great and easy to use with the following rules:</p><ol><li>Wrap checkboxes and radio buttons within labels for larger hit areas, and be sure to set the for, name, and id attributes for all applicable elements.</li><li>Series of checkboxes and radio buttons below within a<code><ul class="(inline) actions"></code></li><li>Before selecting any set of fields to use for a required input, explore other options (e.g., radio buttons over select lists).</li></ol></div></div><div class="row"><div class="small-6 medium-6 columns"><h4>HTML</h4><pre><code class="highlight html"><span class="nt">&lt;form&gt;</span>
+
+  </div>
+  <div class="small-6 medium-6 columns">
+    <h4>
+      Rendered HTML
+    </h4>
+    <a class="button tiny" href="#">.button .tiny</a>
+    <div class="row">
+      <div class="medium-4 columns">
+        <a class="button secondary" href="#">.button .secondary</a>
+      </div>
+      <div class="medium-4 columns">
+        <a class="button alert" href="#">.button .alert</a>
+      </div>
+      <div class="medium-4 columns">
+        <a class="button success" href="#">.button .success</a>
+      </div>
+    </div>
+    <a class="button expand" href="#">.button .expand</a>
+  </div>
+</div>
+    <hr /><div class="row">
+  <div class="small-12 medium-12 columns">
+    <h2 data-magellan-destination="forms" id="forms">
+      Forms
+    </h2>
+    <h3>
+      Elements of a Form
+    </h3>
+    <p>
+      A form should be marked up using it's default HTML properties. The ones we make use of include (in hierarchical order):
+    </p>
+    <ul>
+      <li>
+        form
+      </li>
+      <li>
+        label
+      </li>
+      <li>
+        input
+      </li>
+      <li>
+        select
+      </li>
+      <li>
+        textarea
+      </li>
+      <li>
+        button
+      </li>
+    </ul>
+    <h3>
+      How to Use
+    </h3>
+    <p>
+      Make forms great and easy to use with the following rules:
+    </p>
+    <ol>
+      <li>
+        Wrap checkboxes and radio buttons within labels for larger hit areas, and be sure to set the for, name, and id attributes for all applicable elements.
+      </li>
+      <li>
+        Series of checkboxes and radio buttons below within a<code><ul class="(inline) actions"></code>
+      </li>
+      <li>
+        Before selecting any set of fields to use for a required input, explore other options (e.g., radio buttons over select lists).
+      </li>
+    </ol>
+  </div>
+</div>
+<div class="row">
+  <div class="small-6 medium-6 columns">
+    <h4>
+      HTML
+    </h4><pre><code class="highlight html"><span class="nt">&lt;form&gt;</span>
   <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"large-12 columns"</span><span class="nt">&gt;</span>
     <span class="nt">&lt;label&gt;</span>
       Input Label
@@ -92,4 +674,120 @@
   <span class="nt">&lt;/div&gt;</span>
 <span class="nt">&lt;/form&gt;</span>
 </code></pre>
-</div><div class="small-6 medium-6 columns"><h4>Rendered HTML</h4><form><div class="row"><div class="large-12 columns"><label>Input Label<input placeholder=".large-12.columns" type="text" /></label></div></div><div class="row"><div class="large-12 columns"><label>Select Box<select><option value="husker">Husker</option><option value="starbuck">Starbuck</option><option value="hotdog">Hot Dog</option><option value="apollo">Apollo</option></select></label></div></div><div class="row"><div class="large-6 columns"><p>Choose Your Favorite</p><input id="pokemonRed" name="pokemon" type="radio" value="Red"><label for="pokemonRed">Red</label></input><input id="pokemonBlue" name="pokemon" type="radio" value="Blue"><label for="pokemonBlue">Blue</label></input></div><div class="large-6 columns"><p>Check these out</p><ul class="no-bullet"><li><input id="checkbox1" type="checkbox" /><label for="checkbox1">Checkbox 1</label></li><li><input id="checkbox2" type="checkbox" /><label for="checkbox2"> Checkbox 2</label></li></ul></div></div><div class="row"><div class="large-12 columns"><label>Textarea Label<textarea placeholder="small-12.columns"></textarea></label></div></div></form><p class="text-right"><a href="forms/">More advanced examples &rarr;</a></p></div></div><hr /><patterns class="slim"></patterns><div class="row"><div class="small-12 medium-12 columns"><h2 data-magellan-destination="patterns" id="patterns">Patterns</h2><h3>When to Use</h3><p>Throughout the website there are patterns that work no matter which module they are part of. We'll outline the basics and let you know where to use them.</p></div></div><div class="row"><div class="small-6 medium-6 columns"><p>[ project-specific samples ]</p></div><div class="small-6 medium-6 columns"><p>[ project-specific samples ]</p></div></div><hr /></div></div><footer class="m-footer"><div class="row"><div class="medium-12 columns"><h2 class="text-center m-masterhead--title" data-magellan-destination="download" id="download">You want to hack this Boilerplate ? </h2></div></div><div class="row"><div class="medium-4 medium-centered columns"><a class="button secondary large expand" href="https://github.com/flexbox/foundation-boilerplate/">Fork on GitHub</a><p class="lead">Or you can help me and <a href="https://github.com/flexbox/foundation-boilerplate/issues">report an issue</a></p></div></div><div class="row"><div class="medium-10 medium-centered columns"><p class="text-center">Foundation Boilerplate is created, and maintained by <a target="_blank" rel="nofollow" href="http://davidl.fr">David Leuliette</a>.<br />Hand-coded with ♥ and a clever hacking of <a href="http://middlemanapp.com/">Middleman</a> and <a href="http://foundation.zurb.com/">Foundation</a>.<br />Hosted on <a href="https://github.com/flexbox/">GitHub</a>.</p></div></div></footer><script src="assets/javascripts/application-f0c57b2d.js" type="text/javascript"></script></body></html>
+
+  </div>
+  <div class="small-6 medium-6 columns">
+    <h4>
+      Rendered HTML
+    </h4>
+    <form>
+      <div class="row">
+        <div class="large-12 columns">
+          <label>Input Label<input placeholder=".large-12.columns" type="text" /></label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="large-12 columns">
+          <label>Select Box<select>
+              <option value="husker">
+                Husker
+              </option>
+              <option value="starbuck">
+                Starbuck
+              </option>
+              <option value="hotdog">
+                Hot Dog
+              </option>
+              <option value="apollo">
+                Apollo
+              </option>
+            </select></label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="large-6 columns">
+          <p>
+            Choose Your Favorite
+          </p>
+          <input id="pokemonRed" name="pokemon" type="radio" value="Red"><label for="pokemonRed">Red</label></input><input id="pokemonBlue" name="pokemon" type="radio" value="Blue"><label for="pokemonBlue">Blue</label></input>
+        </div>
+        <div class="large-6 columns">
+          <p>
+            Check these out
+          </p>
+          <ul class="no-bullet">
+            <li>
+              <input id="checkbox1" type="checkbox" /><label for="checkbox1">Checkbox 1</label>
+            </li>
+            <li>
+              <input id="checkbox2" type="checkbox" /><label for="checkbox2"> Checkbox 2</label>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="large-12 columns">
+          <label>Textarea Label<textarea placeholder="small-12.columns"></textarea></label>
+        </div>
+      </div>
+    </form>
+    <p class="text-right">
+      <a href="forms/">More advanced examples &rarr;</a>
+    </p>
+  </div>
+</div>
+    <hr />
+    <patterns class="slim"></patterns>
+    <div class="row">
+      <div class="small-12 medium-12 columns">
+        <h2 data-magellan-destination="patterns" id="patterns">
+          Patterns
+        </h2>
+        <h3>
+          When to Use
+        </h3>
+        <p>
+          Throughout the website there are patterns that work no matter which module they are part of. We'll outline the basics and let you know where to use them.
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="small-6 medium-6 columns">
+        <p>
+          [ project-specific samples ]
+        </p>
+      </div>
+      <div class="small-6 medium-6 columns">
+        <p>
+          [ project-specific samples ]
+        </p>
+      </div>
+    </div>
+    <hr />
+  </div>
+</div><footer class="m-footer">
+      <div class="row">
+        <div class="medium-12 columns">
+          <h2 class="text-center m-masterhead--title" data-magellan-destination="download" id="download">
+            You want to hack this Boilerplate ? 
+          </h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="medium-4 medium-centered columns">
+          <a class="button secondary large expand" href="https://github.com/flexbox/foundation-boilerplate/">Fork on GitHub</a>
+          <p class="lead">
+            Or you can help me and <a href="https://github.com/flexbox/foundation-boilerplate/issues">report an issue</a>
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="medium-10 medium-centered columns">
+          <p class="text-center">
+            Foundation • Boilerplate is created, and maintained by <a target="_blank" rel="nofollow" href="http://davidl.fr">David Leuliette</a>.<br />Hand-coded with ♥ and a clever hacking of <a href="http://middlemanapp.com/">Middleman</a> and <a href="http://foundation.zurb.com/">Foundation</a>.<br />Hosted on <a href="https://github.com/flexbox/foundation-boilerplate/">GitHub</a>.
+          </p>
+        </div>
+      </div>
+    </footer><script src="assets/javascripts/application-f0c57b2d.js" type="text/javascript"></script>
+  </body>
+</html>
