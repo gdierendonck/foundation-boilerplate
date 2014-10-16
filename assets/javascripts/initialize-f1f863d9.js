@@ -1,1 +1,0 @@
-(function(){$(function(){$(document).foundation()})}).call(this);
