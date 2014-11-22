@@ -4,21 +4,24 @@
     <loc>http://flexbox.github.io/foundation-boilerplate//grid</loc>
   </url>
   <url>
+    <loc>http://flexbox.github.io/foundation-boilerplate//templates/admin</loc>
+  </url>
+  <url>
     <loc>http://flexbox.github.io/foundation-boilerplate//buttons</loc>
   </url>
   <url>
-    <loc>http://flexbox.github.io/foundation-boilerplate//typography</loc>
+    <loc>http://flexbox.github.io/foundation-boilerplate//about</loc>
   </url>
   <url>
     <loc>http://flexbox.github.io/foundation-boilerplate//forms</loc>
   </url>
   <url>
-    <loc>http://flexbox.github.io/foundation-boilerplate/</loc>
-  </url>
-  <url>
     <loc>http://flexbox.github.io/foundation-boilerplate//icons</loc>
   </url>
   <url>
-    <loc>http://flexbox.github.io/foundation-boilerplate//admin</loc>
+    <loc>http://flexbox.github.io/foundation-boilerplate//type</loc>
+  </url>
+  <url>
+    <loc>http://flexbox.github.io/foundation-boilerplate/</loc>
   </url>
 </urlset>

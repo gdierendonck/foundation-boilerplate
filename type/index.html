@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Text content example | Foundation • Boilerplate</title>
+    <meta content="Content choregraphy" name="description" />
+    <meta content="index,follow" name="robots" />
+    <link href="../assets/stylesheets/application-0f02603f.css" rel="stylesheet" type="text/css" /><script src="../assets/javascripts/modernizr-6e6719c6.js" type="text/javascript"></script>
+  </head>
+  <body class="type type_index"><header class="m-header" role="banner">
+  <div class="alert-box warning text-center">
+    Work in Progress! Not quite ready for prime-time 
+  </div>
+  <div class="row">
+    <div class="medium-6 columns">
+      Foundation • Boilerplate
+    </div>
+    <div class="medium-6 columns">
+      <nav class="m-header--list">
+        <li>
+          <a href="https://github.com/flexbox/foundation-boilerplate/">Source code</a>
+        </li>
+        <li>
+          <a href="https://github.com/flexbox/foundation-boilerplate/blob/master/README.md">Docs</a>
+        </li>
+        <li>
+          <a href="/about">About</a>
+        </li>
+      </nav>
+    </div>
+  </div>
+  <div class="row text-center">
+    <div class="medium-8 medium-centered small-12 columns">
+      <h1 class="m-header--title">
+        Typography style guide
+      </h1>
+      <p>
+        95% of content on the web is text
+      </p>
+    </div>
+  </div>
+</header><div class="row">
+  <div class="medium-8 medium-centered columns">
+    <div class="row">
+      <div class="small-12 medium-12 columns"><h2 id="a-note-on-using-this-style-guide">A note on using this style guide</h2>
+<hr />
+
+<h3 id="when-to-use">When to use</h3>
+
+<p>Headings are used to denote different sections of content, usually consisting of related paragraphs and other HTML elements. They range from h1 to h6 and should be styled in a clear hierarchy (i.e., largest to smallest). Il you are looking for a good seo you must respect this :</p>
+
+<ul>
+  <li>One <code>h1</code> per page</li>
+  <li>Follow a logic hierarchy
+    <ul>
+      <li>h1
+        <ul>
+          <li>p</li>
+          <li>h2
+            <ul>
+              <li>h3</li>
+              <li>p</li>
+              <li>h3</li>
+              <li>p</li>
+            </ul>
+          </li>
+          <li>h2</li>
+          <li>p</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="when-to-use-paragraphs">When to use paragraphs</h3>
+
+<p>Paragraphs are groups of sentences, each with a lead (first sentence) and transition (last sentence). They are block level elements, meaning they stack vertically when repeated. Use them as such.</p>
+
+<h3 id="editing-the-css">Editing the CSS</h3>
+
+<p>SCSS variables for typography can be found :</p>
+
+<pre><code class="highlight scss"><span class="o">/</span><span class="nt">foundation</span><span class="o">/</span><span class="nt">scss</span><span class="o">/</span><span class="nt">foundation</span><span class="o">/</span><span class="nt">components</span><span class="o">/</span><span class="nt">_type</span><span class="nc">.scss</span>
+</code></pre>
+
+<h3 id="follow-naming-convention">Follow naming convention</h3>
+
+<p>How can we split content and architecure for SEO ? Here is a solution, <a href="http://stuffandnonsense.co.uk/blog/about/star-wars-styling">adopt a good typography naming</a>.</p>
+
+      </div>
+    </div>
+  </div>
+</div>
+<div class="m-section--inverse">
+  <div class="row">
+    <div class="medium-10 medium-centered columns">
+      <p>
+        @extend
+      </p>
+      <h2>
+        THE STAR WARS STYLING
+      </h2><pre><code class="highlight scss"><span class="nc">.emperor</span> <span class="p">{</span>
+  <span class="k">@extend</span> <span class="nt">h1</span><span class="p">;</span>
+  <span class="nl">text-transform</span><span class="p">:</span> <span class="nb">uppercase</span><span class="p">;</span>
+<span class="p">}</span>
+<span class="nc">.vador</span> <span class="p">{</span>
+  <span class="k">@extend</span> <span class="nt">h2</span><span class="p">;</span>
+  <span class="nl">font-weight</span><span class="p">:</span> <span class="nv">$font-weight-bold</span><span class="p">;</span>
+<span class="p">}</span>
+<span class="nc">.maul</span> <span class="p">{</span>
+  <span class="k">@extend</span> <span class="nt">h3</span><span class="p">;</span>
+  <span class="nl">font-style</span><span class="p">:</span> <span class="nb">italic</span><span class="p">;</span>
+<span class="p">}</span>
+<span class="nc">.sith</span> <span class="p">{</span>
+  <span class="k">@extend</span> <span class="nt">h4</span><span class="p">;</span>
+<span class="p">}</span>
+<span class="nc">.acolyte</span> <span class="p">{</span>
+  <span class="k">@extend</span> <span class="nt">h5</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre>
+
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="medium-8 medium-centered columns">
+    <div class="row">
+      <div class="medium-4 columns">
+        <h4>
+          SCSS
+        </h4><pre><code class="highlight scss"><span class="err">$</span><span class="nt">header-font-family</span>
+<span class="err">$</span><span class="nt">header-font-weight</span>
+
+<span class="err">$</span><span class="nt">h1-font-size</span>
+<span class="err">$</span><span class="nt">h2-font-size</span>
+<span class="err">$</span><span class="nt">h3-font-size</span>
+<span class="err">$</span><span class="nt">h4-font-size</span>
+<span class="err">$</span><span class="nt">h5-font-size</span>
+<span class="err">$</span><span class="nt">h6-font-size</span>
+</code></pre>
+
+      </div>
+      <div class="medium-8 columns">
+        <h4>
+          Rendered HTML
+        </h4>
+        <h1 class="js-type">
+          h1 Header one <small>with a baseline</small>
+        </h1>
+        <h2 class="js-type">
+          h2 Header two <small>with a baseline</small>
+        </h2>
+        <h3 class="js-type">
+          h3 Header three <small>with a baseline</small>
+        </h3>
+        <h4 class="js-type">
+          h4 Header four <small>with a baseline</small>
+        </h4>
+        <h5 class="js-type">
+          h5 Header five <small>with a baseline</small>
+        </h5>
+        <h6 class="js-type">
+          h6 Header six <small>with a baseline</small>
+        </h6>
+      </div>
+    </div>
+    <div class="row">
+      <div class="medium-4 columns">
+        <h4>
+          SCSS
+        </h4><pre><code class="highlight scss"><span class="err">$</span><span class="nt">body-font-family</span>
+<span class="err">$</span><span class="nt">body-font-weight</span>
+
+<span class="err">$</span><span class="nt">paragraph-font-size</span>
+</code></pre>
+
+      </div>
+      <div class="medium-8 columns">
+        <h4>
+          Rendered HTML
+        </h4>
+        <p class="js-type lead">
+          Uh listen, do you know where Riverside Drive is? Yeah, sure, okay.
+        </p>
+        <p class="js-type">
+          What's going on? Where have you been all week? I'm sure that in 1985, plutonium is available at every corner drug store, but in 1955, it's a little hard to come by. Marty, I'm sorry, but I'm afraid you're stuck here. Because, you might regret it later in life.
+        </p>
+        <div class="js-type">
+          <blockquote>Don't worry. As long as you hit that wire with the connecting hook at precisely 88 miles per hour, the instance the lightning strikes the tower, everything will be fine. <cite>Doc</cite></blockquote>
+        </div>
+      </div>
+    </div>
+  </div>
+</div><footer class="m-footer" role="contentinfo">
+  <div class="row">
+    <div class="medium-2 columns">
+      <nav class="side-nav" role="navigation">
+        <li>
+          Navigation 
+        </li>
+        <li>
+          <a href="/">Homepage</a>
+        </li>
+        <li>
+          <a href="/about">About</a>
+        </li>
+        <li>
+          Components 
+        </li>
+        <li>
+          <a href="/buttons">Buttons</a>
+        </li>
+        <li>
+          <a href="/type">Typography</a>
+        </li>
+      </nav>
+    </div>
+    <div class="medium-2 columns">
+      <nav class="side-nav" role="navigation">
+        <li>
+          Templates 
+        </li>
+        <li>
+          <a href="templates/admin">Admin</a>
+        </li>
+      </nav>
+    </div>
+    <div class="medium-8 columns">
+      <div class="m-footer--title">
+        You want to hack this Boilerplate ? 
+      </div>
+      <a class="button secondary large icon github" href="https://github.com/flexbox/foundation-boilerplate/">Fork on GitHub</a>
+      <p class="lead">
+        Or you can help me and <a href="https://github.com/flexbox/foundation-boilerplate/issues">report an issue &rarr;</a>
+      </p>
+    </div>
+  </div>
+  <hr />
+  <p class="text-center">
+    Foundation • Boilerplate is created, and maintained by <a href="../human.txt">David Leuliette</a>, Last update <time datetime="22-11-2014 ">22-11-2014. </time>
+  </p>
+</footer><script src="../assets/javascripts/application-48e32da7.js" type="text/javascript"></script>
+  </body>
+</html>
