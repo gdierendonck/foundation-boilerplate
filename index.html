@@ -43,40 +43,47 @@
 </header>
 <div class="row m-content">
   <div class="medium-2 columns">
-    <div class="hide-for-small" data-magellan-expedition="fixed">
+    <div class="hide-for-small" data-magellan-expedition="">
       <h5>
         Table of contents
       </h5>
       <nav>
         <ul class="side-nav">
-          <li data-magellan-arrival="colors">
-            <a href="#colors">Colors</a>
+          <li data-magellan-arrival="layout">
+            <a href="#js-layout">Layout</a>
           </li>
-          <li data-magellan-arrival="icons">
-            <a href="#icons">Icons</a>
-          </li>
-          <li data-magellan-arrival="lists">
-            <a href="#lists">Lists</a>
-          </li>
-          <li data-magellan-arrival="forms">
-            <a href="#forms">Forms</a>
+          <li data-magellan-arrival="design">
+            <a href="#js-design">Design</a>
           </li>
           <li class="divider"></li>
           <li data-magellan-arrival="download">
-            <a class="button" href="https://github.com/flexbox/foundation-boilerplate/archive/gh-pages.zip">Download</a>
+            <a class="button icon download" href="https://github.com/flexbox/foundation-boilerplate/archive/gh-pages.zip">Download</a>
           </li>
         </ul>
       </nav>
     </div>
   </div>
   <div class="medium-10 columns">
-    <hr /><div class="row">
-  <div class="small-12 medium-12 columns">
-    <h2 data-magellan-destination="colors" id="colors">
-      UI Color Palette
+    <h2 data-magellan-destination="layout" id="js-layout">
+      Wireframes layouts 
     </h2>
+    <hr />
+    <p>
+      Here is a list of templates you can use for your next HTML prototype :
+    </p>
+    <ul>
+      <li class='child '><a href="/templates/admin/">Simple foundation admin template</a></li>
+    </ul>
+    <h2 data-magellan-destination="design" id="js-design">
+      Design atmosphere 
+    </h2>
+    <hr />
+    <p>
+      Here is a list of templates you can use for your next HTML prototype :
+    </p><div class="row">
+  <div class="small-12 medium-12 columns">
     <h3>
-      When to Use
+      UI Color Palette
     </h3>
     <p>
       By default, the middle range should be used before any other. We've labeled each color on the grid. Use the production code to match each color.
@@ -136,271 +143,6 @@
     </ul>
   </div>
 </div>
-    <hr /><div class="row">
-  <div class="small-12 medium-12 columns">
-    <h2 data-magellan-destination="icons" id="icons">
-      Icons
-    </h2>
-    <h3>
-      Why use font icon ?
-    </h3>
-    <p>
-      You can customize your icons to be any size, color, style in CSS.
-    </p>
-  </div>
-</div>
-<div class="row">
-  <div class="small-4 medium-4 columns">
-    <h4>
-      HTML
-    </h4><pre><code class="highlight html"><span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"fi-[icon] small"</span><span class="nt">&gt;&lt;/i&gt;</span>
-<span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"fi-[icon] medium"</span><span class="nt">&gt;&lt;/i&gt;</span>
-<span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"fi-[icon] large"</span><span class="nt">&gt;&lt;/i&gt;</span>
-</code></pre>
-
-  </div>
-  <div class="small-8 medium-8 columns">
-    <h4>
-      Rendered HTML
-    </h4>
-    <div class="row">
-      <div class="small-4 columns">
-        <i class="fi-html5 small"></i><i class="fi-html5 medium"></i><i class="fi-html5 large"></i>
-      </div>
-      <div class="small-4 columns">
-        <i class="fi-css3 small"></i><i class="fi-css3 medium"></i><i class="fi-css3 large"></i>
-      </div>
-      <div class="small-4 columns">
-        <i class="fi-layout small"></i><i class="fi-layout medium"></i><i class="fi-layout large"></i>
-      </div>
-    </div>
-  </div>
-</div>
-<p class="text-right">
-  <a href="icons/">More advanced examples &rarr;</a>
-</p>
-    <hr /><div class="row">
-  <div class="small-12 medium-12 columns">
-    <h2 data-magellan-destination="lists" id="lists">
-      Lists
-    </h2>
-    <h3>
-      When to Use
-    </h3>
-    <p>
-      Lists are great for presenting a series of related phrases or sentences that need to be read faster.
-    </p>
-    <h3>
-      Which to Use
-    </h3>
-    <p>Foundation styles allow for a multitude of lists, including: <code>ul</code> for generic lists and <code>ol</code> for numbered lists.
-    </p>
-    <h3>
-      How to Use
-    </h3>
-    <p>
-      Note the code snippets under each subheading on the left; look there for required classes and list markup.
-    </p>
-    <h3>
-      Editing the CSS
-    </h3>
-    <p>CSS for list styles can be found in <code>_settings.scss</code> and the variables are <code>$list-*</code>.
-    </p>
-  </div>
-</div>
-<div class="row">
-  <div class="small-6 medium-6 columns">
-    <h4>
-      HTML
-    </h4><pre><code class="highlight html"><span class="nt">&lt;ul</span> <span class="na">class=</span><span class="s">"inline"</span><span class="nt">&gt;</span>
-  <span class="nt">&lt;li&gt;</span>
-    <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>inline-list element one<span class="nt">&lt;/a&gt;</span>
-  <span class="nt">&lt;/li&gt;</span>
-  <span class="nt">&lt;li&gt;</span>
-    <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>inline-list element two<span class="nt">&lt;/a&gt;</span>
-  <span class="nt">&lt;/li&gt;</span>
-  <span class="nt">&lt;li&gt;</span>
-    <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>inline-list element three<span class="nt">&lt;/a&gt;</span>
-  <span class="nt">&lt;/li&gt;</span>
-<span class="nt">&lt;/ul&gt;</span>
-</code></pre>
-
-  </div>
-  <div class="small-6 medium-6 columns">
-    <h4>
-      Rendered HTML
-    </h4>
-    <ul class="inline-list">
-      <li>
-        <a href="#">Element one</a>
-      </li>
-      <li>
-        <a href="#">Element two</a>
-      </li>
-      <li>
-        <a href="#">Element three</a>
-      </li>
-    </ul>
-    <ul>
-      <li>
-        Plutonium
-      </li>
-      <ul>
-        <li>
-          Uranium
-        </li>
-        <li>
-          Neptunium
-        </li>
-        <li>
-          Américium
-        </li>
-      </ul>
-      <li>
-        Oxygen 
-      </li>
-      <li>
-        Carbon
-      </li>
-    </ul>
-    <ol>
-      <li>
-        Black Mesa
-      </li>
-      <li>
-        Aperture Science
-      </li>
-    </ol>
-  </div>
-</div>
-    <hr /><div class="row">
-  <div class="small-12 medium-12 columns">
-    <h2 data-magellan-destination="forms" id="forms">
-      Forms
-    </h2>
-    <h3>
-      Elements of a Form
-    </h3>
-    <p>
-      A form should be marked up using it's default HTML properties. The ones we make use of include (in hierarchical order):
-    </p>
-    <ul>
-      <li>
-        form
-      </li>
-      <li>
-        label
-      </li>
-      <li>
-        input
-      </li>
-      <li>
-        select
-      </li>
-      <li>
-        textarea
-      </li>
-      <li>
-        button
-      </li>
-    </ul>
-    <h3>
-      How to Use
-    </h3>
-    <p>
-      Make forms great and easy to use with the following rules:
-    </p>
-    <ol>
-      <li>
-        Wrap checkboxes and radio buttons within labels for larger hit areas, and be sure to set the for, name, and id attributes for all applicable elements.
-      </li>
-      <li>
-        Series of checkboxes and radio buttons below within a<pre><code class="highlight html">  <span class="nt">&lt;ul</span> <span class="na">class=</span><span class="s">"(inline) actions"</span><span class="nt">&gt;</span>
-</code></pre>
-
-      </li>
-      <li>
-        Before selecting any set of fields to use for a required input, explore other options (e.g., radio buttons over select lists).
-      </li>
-    </ol>
-  </div>
-</div>
-<div class="row">
-  <div class="small-6 medium-6 columns">
-    <h4>
-      HTML
-    </h4><pre><code class="highlight html"><span class="nt">&lt;form&gt;</span>
-  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"large-12 columns"</span><span class="nt">&gt;</span>
-    <span class="nt">&lt;label&gt;</span>
-      Input Label
-      <span class="nt">&lt;input</span> <span class="na">placeholder=</span><span class="s">"large-12.columns"</span> <span class="na">type=</span><span class="s">"text"</span><span class="nt">&gt;</span>
-    <span class="nt">&lt;/label&gt;</span>
-  <span class="nt">&lt;/div&gt;</span>
-<span class="nt">&lt;/form&gt;</span>
-</code></pre>
-
-  </div>
-  <div class="small-6 medium-6 columns">
-    <h4>
-      Rendered HTML
-    </h4>
-    <form>
-      <div class="row">
-        <div class="large-12 columns">
-          <label>Input Label<input placeholder=".large-12.columns" type="text" /></label>
-        </div>
-      </div>
-      <div class="row">
-        <div class="large-12 columns">
-          <label>Select Box<select>
-              <option value="husker">
-                Husker
-              </option>
-              <option value="starbuck">
-                Starbuck
-              </option>
-              <option value="hotdog">
-                Hot Dog
-              </option>
-              <option value="apollo">
-                Apollo
-              </option>
-            </select></label>
-        </div>
-      </div>
-      <div class="row">
-        <div class="large-6 columns">
-          <p>
-            Choose Your Favorite
-          </p>
-          <input id="pokemonRed" name="pokemon" type="radio" value="Red"><label for="pokemonRed">Red</label></input><input id="pokemonBlue" name="pokemon" type="radio" value="Blue"><label for="pokemonBlue">Blue</label></input>
-        </div>
-        <div class="large-6 columns">
-          <p>
-            Check these out
-          </p>
-          <ul class="no-bullet">
-            <li>
-              <input id="checkbox1" type="checkbox" /><label for="checkbox1">Checkbox 1</label>
-            </li>
-            <li>
-              <input id="checkbox2" type="checkbox" /><label for="checkbox2"> Checkbox 2</label>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <div class="row">
-        <div class="large-12 columns">
-          <label>Textarea Label<textarea placeholder="small-12.columns"></textarea></label>
-        </div>
-      </div>
-    </form>
-    <p class="text-right">
-      <a href="forms/">More advanced examples &rarr;</a>
-    </p>
-  </div>
-</div>
-    <hr />
   </div>
 </div>
 <footer class="m-footer" role="contentinfo">
@@ -425,10 +167,19 @@
         <li>
           <a href="/type">Typography</a>
         </li>
+        <li>
+          <a href="/forms">Forms</a>
+        </li>
       </nav>
     </div>
     <div class="medium-2 columns">
       <nav class="side-nav" role="navigation">
+        <li>
+          Misc 
+        </li>
+        <li>
+          <a href="/icons">Icons</a>
+        </li>
         <li>
           Templates 
         </li>
@@ -441,15 +192,18 @@
       <div class="m-footer--title">
         You want to hack this Boilerplate ? 
       </div>
+      <p>
+        If you have some ideas about crazy feature, amazing template, or simply want to test Sass files : 
+      </p>
       <a class="button secondary large icon github" href="https://github.com/flexbox/foundation-boilerplate/">Fork on GitHub</a>
       <p class="lead">
-        Or you can help me and <a href="https://github.com/flexbox/foundation-boilerplate/issues">report an issue &rarr;</a>
+        Or you can help me to fix bugs and <a href="https://github.com/flexbox/foundation-boilerplate/issues">report an issue &rarr;</a>
       </p>
     </div>
   </div>
   <hr />
   <p class="text-center">
-    Foundation • Boilerplate is created, and maintained by <a href="human.txt">David Leuliette</a>, Last update <time datetime="22-11-2014 ">22-11-2014. </time>
+    Foundation • Boilerplate is created, and maintained by <a href="/human.txt">David Leuliette</a>, Last update <time datetime="23-11-2014 ">23-11-2014. </time>
   </p>
 </footer><script src="assets/javascripts/application-48e32da7.js" type="text/javascript"></script>
   </body>

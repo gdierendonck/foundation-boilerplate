@@ -33,14 +33,56 @@
   <div class="row text-center">
     <div class="medium-8 medium-centered small-12 columns">
       <h1 class="m-header--title">
-        Icons
+        Font icons
       </h1>
       <p>
         These examples use <strong>Foundation icons 3</strong>, but feel free to try it with fontawesome, fontello or your own svg icons !
       </p>
     </div>
   </div>
-</header><hr />
+</header><div class="row">
+  <div class="medium-10 medium-centered columns">
+    <div class="row">
+      <div class="small-12 medium-12 columns">
+        <h2 id="icons">Icons</h2>
+        <hr />
+        
+        <p>You can customize your icons to be any size, color, style in CSS.</p>
+        
+      </div>
+    </div>
+    <div class="row">
+      <div class="small-4 columns">
+        <h4>
+          HTML
+        </h4><pre><code class="highlight html"><span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"fi-[icon] small"</span><span class="nt">&gt;&lt;/i&gt;</span>
+<span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"fi-[icon] medium"</span><span class="nt">&gt;&lt;/i&gt;</span>
+<span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"fi-[icon] large"</span><span class="nt">&gt;&lt;/i&gt;</span>
+</code></pre>
+
+      </div>
+      <div class="small-8 columns">
+        <h4>
+          Rendered HTML
+        </h4>
+        <div class="row">
+          <div class="small-4 columns">
+            <i class="fi-html5 small"></i><i class="fi-html5 medium"></i><i class="fi-html5 large"></i>
+          </div>
+          <div class="small-4 columns">
+            <i class="fi-css3 small"></i><i class="fi-css3 medium"></i><i class="fi-css3 large"></i>
+          </div>
+          <div class="small-4 columns">
+            <i class="fi-layout small"></i><i class="fi-layout medium"></i><i class="fi-layout large"></i>
+          </div>
+        </div>
+        <p class="text-right">
+          <a href="http://zurb.com/playground/foundation-icon-fonts-3">See the complete list &rarr;</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
 <div class="row">
   <div class="small-12 medium-12 columns">
     <h2>
@@ -49,128 +91,6 @@
     <p>
       Here is a nice example is you want a folder based menu.
     </p>
-    <div class="row">
-      <div class="large-6 columns">
-        <h4>
-          HTML
-        </h4><pre><code class="highlight html"><span class="nt">&lt;ul&gt;</span>
-  <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>
-    <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"fi-folder"</span><span class="nt">&gt;&lt;/i&gt;</span>Folder<span class="nt">&lt;/a&gt;</span>
-  <span class="nt">&lt;/li&gt;</span>
-  <span class="nt">&lt;hr</span> <span class="na">class=</span><span class="s">"folder"</span><span class="nt">&gt;</span>
-    <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>
-      <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"fi-folder"</span><span class="nt">&gt;&lt;/i&gt;</span>Folder<span class="nt">&lt;/a&gt;</span>
-      <span class="nt">&lt;ul&gt;</span>
-        <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>
-          <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"fi-folder"</span><span class="nt">&gt;&lt;/i&gt;</span>Subfolder<span class="nt">&lt;/a&gt;</span>
-        <span class="nt">&lt;/li&gt;</span>
-        <span class="nt">&lt;ul&gt;</span>
-          <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>
-            <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"fi-page"</span><span class="nt">&gt;&lt;/i&gt;</span>File<span class="nt">&lt;/a&gt;</span>
-          <span class="nt">&lt;/li&gt;</span>
-          <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>
-            <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"fi-page"</span><span class="nt">&gt;&lt;/i&gt;</span>File<span class="nt">&lt;/a&gt;</span>
-          <span class="nt">&lt;/li&gt;</span>
-        <span class="nt">&lt;/ul&gt;</span>
-        <span class="nt">&lt;hr</span> <span class="na">class=</span><span class="s">"subfolder"</span><span class="nt">&gt;</span>
-          <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>
-            <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"fi-page"</span><span class="nt">&gt;&lt;/i&gt;</span>File<span class="nt">&lt;/a&gt;</span>
-          <span class="nt">&lt;/li&gt;</span>
-
-      <span class="nt">&lt;/ul&gt;</span>
-    <span class="nt">&lt;/li&gt;</span>
-    <span class="nt">&lt;hr</span> <span class="na">class=</span><span class="s">"folder"</span><span class="nt">&gt;</span>
-      <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>
-        <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"fi-folder"</span><span class="nt">&gt;&lt;/i&gt;</span>Folder<span class="nt">&lt;/a&gt;</span>
-        <span class="nt">&lt;ul&gt;</span>
-          <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>
-            <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"fi-page"</span><span class="nt">&gt;&lt;/i&gt;</span>File<span class="nt">&lt;/a&gt;</span>
-          <span class="nt">&lt;/li&gt;</span>
-          <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>
-            <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"fi-page"</span><span class="nt">&gt;&lt;/i&gt;</span>File<span class="nt">&lt;/a&gt;</span>
-          <span class="nt">&lt;/li&gt;</span>
-          <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>
-            <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"fi-page"</span><span class="nt">&gt;&lt;/i&gt;</span>File<span class="nt">&lt;/a&gt;</span>
-          <span class="nt">&lt;/li&gt;</span>
-        <span class="nt">&lt;/ul&gt;</span>
-      <span class="nt">&lt;/li&gt;</span>
-      <span class="nt">&lt;hr</span> <span class="na">class=</span><span class="s">"folder"</span><span class="nt">&gt;</span>
-        <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>
-          <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"fi-page"</span><span class="nt">&gt;&lt;/i&gt;</span>File<span class="nt">&lt;/a&gt;</span>
-        <span class="nt">&lt;/li&gt;</span>
-        <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>
-          <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"fi-page"</span><span class="nt">&gt;&lt;/i&gt;</span>File<span class="nt">&lt;/a&gt;</span>
-        <span class="nt">&lt;/li&gt;</span>
-        <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>
-          <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"fi-page"</span><span class="nt">&gt;&lt;/i&gt;</span>File<span class="nt">&lt;/a&gt;</span>
-        <span class="nt">&lt;/li&gt;</span>
-<span class="nt">&lt;/ul&gt;</span>
-</code></pre>
-
-      </div>
-      <div class="large-6 columns">
-        <h4>
-          Rendered HTML
-        </h4>
-        <div class="file-list">
-          <ul>
-            <li><a href="#">
-                            <i class="fi-folder"></i>Folder</a>
-            </li>
-            <hr class="folder">
-              <li><a href="#">
-                                <i class="fi-folder"></i>Folder</a>
-                <ul>
-                  <li><a href="#">
-                                        <i class="fi-folder"></i>Subfolder</a>
-                  </li>
-                  <ul>
-                    <li><a href="#">
-                                            <i class="fi-page"></i>File</a>
-                    </li>
-                    <li><a href="#">
-                                            <i class="fi-page"></i>File</a>
-                    </li>
-                  </ul>
-                  <hr class="subfolder">
-                    <li><a href="#">
-                                            <i class="fi-page"></i>File</a>
-                    </li>
-                  </hr>
-                </ul>
-              </li>
-              <hr class="folder">
-                <li><a href="#">
-                                    <i class="fi-folder"></i>Folder</a>
-                  <ul>
-                    <li><a href="#">
-                                            <i class="fi-page"></i>File</a>
-                    </li>
-                    <li><a href="#">
-                                            <i class="fi-page"></i>File</a>
-                    </li>
-                    <li><a href="#">
-                                            <i class="fi-page"></i>File</a>
-                    </li>
-                  </ul>
-                </li>
-                <hr class="folder">
-                  <li><a href="#">
-                                        <i class="fi-page"></i>File</a>
-                  </li>
-                  <li><a href="#">
-                                        <i class="fi-page"></i>File</a>
-                  </li>
-                  <li><a href="#">
-                                        <i class="fi-page"></i>File</a>
-                  </li>
-                </hr>
-              </hr>
-            </hr>
-          </ul>
-        </div>
-      </div>
-    </div>
     <div class="row">
       <div class="large-6 columns">
         <h4>
@@ -332,19 +252,6 @@
       </div>
     </div>
   </div>
-</div>
-<hr />
-<div class="row">
-  <div class="small-6 columns">
-    <p>
-      <a href="http://flexbox.github.io/foundation-boilerplate/">&larr; Back to homepage</a>
-    </p>
-  </div>
-  <div class="small-6 columns">
-    <p class="text-right">
-      <a href="http://zurb.com/playground/foundation-icon-fonts-3">See the complete list &rarr;</a>
-    </p>
-  </div>
 </div><footer class="m-footer" role="contentinfo">
   <div class="row">
     <div class="medium-2 columns">
@@ -367,10 +274,19 @@
         <li>
           <a href="/type">Typography</a>
         </li>
+        <li>
+          <a href="/forms">Forms</a>
+        </li>
       </nav>
     </div>
     <div class="medium-2 columns">
       <nav class="side-nav" role="navigation">
+        <li>
+          Misc 
+        </li>
+        <li>
+          <a href="/icons">Icons</a>
+        </li>
         <li>
           Templates 
         </li>
@@ -383,15 +299,18 @@
       <div class="m-footer--title">
         You want to hack this Boilerplate ? 
       </div>
+      <p>
+        If you have some ideas about crazy feature, amazing template, or simply want to test Sass files : 
+      </p>
       <a class="button secondary large icon github" href="https://github.com/flexbox/foundation-boilerplate/">Fork on GitHub</a>
       <p class="lead">
-        Or you can help me and <a href="https://github.com/flexbox/foundation-boilerplate/issues">report an issue &rarr;</a>
+        Or you can help me to fix bugs and <a href="https://github.com/flexbox/foundation-boilerplate/issues">report an issue &rarr;</a>
       </p>
     </div>
   </div>
   <hr />
   <p class="text-center">
-    Foundation • Boilerplate is created, and maintained by <a href="../human.txt">David Leuliette</a>, Last update <time datetime="22-11-2014 ">22-11-2014. </time>
+    Foundation • Boilerplate is created, and maintained by <a href="/human.txt">David Leuliette</a>, Last update <time datetime="23-11-2014 ">23-11-2014. </time>
   </p>
 </footer><script src="../assets/javascripts/application-48e32da7.js" type="text/javascript"></script>
   </body>

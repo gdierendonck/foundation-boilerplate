@@ -40,7 +40,131 @@
       </p>
     </div>
   </div>
-</header><hr />
+</header><div class="row">
+  <div class="medium-8 medium-centered columns">
+    <h2>
+      Forms
+    </h2>
+    <h3>
+      Elements of a Form
+    </h3>
+    <p>
+      A form should be marked up using it's default HTML properties. The ones we make use of include (in hierarchical order):
+    </p>
+    <ul>
+      <li>
+        form
+      </li>
+      <li>
+        label
+      </li>
+      <li>
+        input
+      </li>
+      <li>
+        select
+      </li>
+      <li>
+        textarea
+      </li>
+      <li>
+        button
+      </li>
+    </ul>
+    <h3>
+      How to Use
+    </h3>
+    <p>
+      Make forms great and easy to use with the following rules:
+    </p>
+    <ol>
+      <li>
+        Wrap checkboxes and radio buttons within labels for larger hit areas, and be sure to set the for, name, and id attributes for all applicable elements.
+      </li>
+      <li>
+        Series of checkboxes and radio buttons below within a<pre><code class="highlight html">  <span class="nt">&lt;ul</span> <span class="na">class=</span><span class="s">"(inline) actions"</span><span class="nt">&gt;</span>
+</code></pre>
+
+      </li>
+      <li>
+        Before selecting any set of fields to use for a required input, explore other options (e.g., radio buttons over select lists).
+      </li>
+    </ol>
+  </div>
+</div>
+<div class="row">
+  <div class="small-6 medium-6 columns">
+    <h4>
+      HTML
+    </h4><pre><code class="highlight html"><span class="nt">&lt;form&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"large-12 columns"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;label&gt;</span>
+      Input Label
+      <span class="nt">&lt;input</span> <span class="na">placeholder=</span><span class="s">"large-12.columns"</span> <span class="na">type=</span><span class="s">"text"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;/label&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/form&gt;</span>
+</code></pre>
+
+  </div>
+  <div class="small-6 medium-6 columns">
+    <h4>
+      Rendered HTML
+    </h4>
+    <form>
+      <div class="row">
+        <div class="large-12 columns">
+          <label>Input Label<input placeholder=".large-12.columns" type="text" /></label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="large-12 columns">
+          <label>Select Box<select>
+              <option value="husker">
+                Husker
+              </option>
+              <option value="starbuck">
+                Starbuck
+              </option>
+              <option value="hotdog">
+                Hot Dog
+              </option>
+              <option value="apollo">
+                Apollo
+              </option>
+            </select></label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="large-6 columns">
+          <p>
+            Choose Your Favorite
+          </p>
+          <input id="pokemonRed" name="pokemon" type="radio" value="Red"><label for="pokemonRed">Red</label></input><input id="pokemonBlue" name="pokemon" type="radio" value="Blue"><label for="pokemonBlue">Blue</label></input>
+        </div>
+        <div class="large-6 columns">
+          <p>
+            Check these out
+          </p>
+          <ul class="no-bullet">
+            <li>
+              <input id="checkbox1" type="checkbox" /><label for="checkbox1">Checkbox 1</label>
+            </li>
+            <li>
+              <input id="checkbox2" type="checkbox" /><label for="checkbox2"> Checkbox 2</label>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="large-12 columns">
+          <label>Textarea Label<textarea placeholder="small-12.columns"></textarea></label>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+<hr />
 <div class="row">
   <div class="small-12 medium-12 columns">
     <h2>
@@ -420,13 +544,6 @@
       <hr />
     </form>
   </div>
-</div>
-<div class="row">
-  <div class="medium-12 columns">
-    <p>
-      <a href="http://flexbox.github.io/foundation-boilerplate/">&larr; Back to homepage</a>
-    </p>
-  </div>
 </div><footer class="m-footer" role="contentinfo">
   <div class="row">
     <div class="medium-2 columns">
@@ -449,10 +566,19 @@
         <li>
           <a href="/type">Typography</a>
         </li>
+        <li>
+          <a href="/forms">Forms</a>
+        </li>
       </nav>
     </div>
     <div class="medium-2 columns">
       <nav class="side-nav" role="navigation">
+        <li>
+          Misc 
+        </li>
+        <li>
+          <a href="/icons">Icons</a>
+        </li>
         <li>
           Templates 
         </li>
@@ -465,15 +591,18 @@
       <div class="m-footer--title">
         You want to hack this Boilerplate ? 
       </div>
+      <p>
+        If you have some ideas about crazy feature, amazing template, or simply want to test Sass files : 
+      </p>
       <a class="button secondary large icon github" href="https://github.com/flexbox/foundation-boilerplate/">Fork on GitHub</a>
       <p class="lead">
-        Or you can help me and <a href="https://github.com/flexbox/foundation-boilerplate/issues">report an issue &rarr;</a>
+        Or you can help me to fix bugs and <a href="https://github.com/flexbox/foundation-boilerplate/issues">report an issue &rarr;</a>
       </p>
     </div>
   </div>
   <hr />
   <p class="text-center">
-    Foundation • Boilerplate is created, and maintained by <a href="../human.txt">David Leuliette</a>, Last update <time datetime="22-11-2014 ">22-11-2014. </time>
+    Foundation • Boilerplate is created, and maintained by <a href="/human.txt">David Leuliette</a>, Last update <time datetime="23-11-2014 ">23-11-2014. </time>
   </p>
 </footer><script src="../assets/javascripts/application-48e32da7.js" type="text/javascript"></script>
   </body>
