@@ -13,16 +13,19 @@
     <loc>http://flexbox.github.io/foundation-boilerplate//templates/admin</loc>
   </url>
   <url>
-    <loc>http://flexbox.github.io/foundation-boilerplate//inputs</loc>
+    <loc>http://flexbox.github.io/foundation-boilerplate//select</loc>
   </url>
   <url>
-    <loc>http://flexbox.github.io/foundation-boilerplate/</loc>
+    <loc>http://flexbox.github.io/foundation-boilerplate//inputs</loc>
   </url>
   <url>
     <loc>http://flexbox.github.io/foundation-boilerplate//buttons</loc>
   </url>
   <url>
     <loc>http://flexbox.github.io/foundation-boilerplate//forms</loc>
+  </url>
+  <url>
+    <loc>http://flexbox.github.io/foundation-boilerplate/</loc>
   </url>
   <url>
     <loc>http://flexbox.github.io/foundation-boilerplate//icons</loc>
