@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://flexbox.github.io/foundation-boilerplate//about</loc>
+    <loc>http://flexbox.github.io/foundation-boilerplate//grid</loc>
   </url>
   <url>
-    <loc>http://flexbox.github.io/foundation-boilerplate//type</loc>
+    <loc>http://flexbox.github.io/foundation-boilerplate//404</loc>
   </url>
   <url>
     <loc>http://flexbox.github.io/foundation-boilerplate//templates/homepage</loc>
@@ -13,24 +13,27 @@
     <loc>http://flexbox.github.io/foundation-boilerplate//templates/admin</loc>
   </url>
   <url>
-    <loc>http://flexbox.github.io/foundation-boilerplate//select</loc>
+    <loc>http://flexbox.github.io/foundation-boilerplate//buttons</loc>
+  </url>
+  <url>
+    <loc>http://flexbox.github.io/foundation-boilerplate//icons</loc>
   </url>
   <url>
     <loc>http://flexbox.github.io/foundation-boilerplate//inputs</loc>
   </url>
   <url>
-    <loc>http://flexbox.github.io/foundation-boilerplate//buttons</loc>
+    <loc>http://flexbox.github.io/foundation-boilerplate//select</loc>
+  </url>
+  <url>
+    <loc>http://flexbox.github.io/foundation-boilerplate//about</loc>
+  </url>
+  <url>
+    <loc>http://flexbox.github.io/foundation-boilerplate//type</loc>
   </url>
   <url>
     <loc>http://flexbox.github.io/foundation-boilerplate//forms</loc>
   </url>
   <url>
     <loc>http://flexbox.github.io/foundation-boilerplate/</loc>
-  </url>
-  <url>
-    <loc>http://flexbox.github.io/foundation-boilerplate//icons</loc>
-  </url>
-  <url>
-    <loc>http://flexbox.github.io/foundation-boilerplate//grid</loc>
   </url>
 </urlset>
