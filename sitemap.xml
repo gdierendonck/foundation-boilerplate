@@ -1,39 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://flexbox.github.io/foundation-boilerplate//grid</loc>
+    <loc>http://flexbox.github.io/foundation-boilerplate//404.html</loc>
   </url>
   <url>
-    <loc>http://flexbox.github.io/foundation-boilerplate//404</loc>
+    <loc>http://flexbox.github.io/foundation-boilerplate//about.html</loc>
   </url>
   <url>
-    <loc>http://flexbox.github.io/foundation-boilerplate//templates/homepage</loc>
+    <loc>http://flexbox.github.io/foundation-boilerplate//type.html</loc>
   </url>
   <url>
-    <loc>http://flexbox.github.io/foundation-boilerplate//templates/admin</loc>
+    <loc>http://flexbox.github.io/foundation-boilerplate//templates/homepage.html</loc>
   </url>
   <url>
-    <loc>http://flexbox.github.io/foundation-boilerplate//buttons</loc>
+    <loc>http://flexbox.github.io/foundation-boilerplate//templates/admin.html</loc>
   </url>
   <url>
-    <loc>http://flexbox.github.io/foundation-boilerplate//icons</loc>
+    <loc>http://flexbox.github.io/foundation-boilerplate//select.html</loc>
   </url>
   <url>
-    <loc>http://flexbox.github.io/foundation-boilerplate//inputs</loc>
+    <loc>http://flexbox.github.io/foundation-boilerplate//inputs.html</loc>
   </url>
   <url>
-    <loc>http://flexbox.github.io/foundation-boilerplate//select</loc>
+    <loc>http://flexbox.github.io/foundation-boilerplate//buttons.html</loc>
   </url>
   <url>
-    <loc>http://flexbox.github.io/foundation-boilerplate//about</loc>
-  </url>
-  <url>
-    <loc>http://flexbox.github.io/foundation-boilerplate//type</loc>
-  </url>
-  <url>
-    <loc>http://flexbox.github.io/foundation-boilerplate//forms</loc>
+    <loc>http://flexbox.github.io/foundation-boilerplate//forms.html</loc>
   </url>
   <url>
     <loc>http://flexbox.github.io/foundation-boilerplate/</loc>
+  </url>
+  <url>
+    <loc>http://flexbox.github.io/foundation-boilerplate//grid.html</loc>
+  </url>
+  <url>
+    <loc>http://flexbox.github.io/foundation-boilerplate//icons.html</loc>
+  </url>
+  <url>
+    <loc>http://flexbox.github.io/foundation-boilerplate//grid-uneven.html</loc>
   </url>
 </urlset>
