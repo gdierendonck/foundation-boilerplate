@@ -4,44 +4,202 @@
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <title>Responsive grid example | Foundation • Boilerplate</title>
-    <meta content="Here's how to center an uneven number of items in your team layout with Foundation." name="description" />
+    <meta content="Here’s how to center an uneven number of items in your team layout with Foundation." name="description" />
     <meta content="index,follow" name="robots" />
     <link href="assets/stylesheets/application-63e4e93e.css" rel="stylesheet" type="text/css" /><script src="assets/javascripts/modernizr-6e6719c6.js" type="text/javascript"></script>
   </head>
-  <body class="grid-uneven">
-    <div class="row">
-      <div class="small-6 small-centered columns">
-        <div>
-          <div class="small-4 columns">
-            <img class="m-grid--avatar" src="http://placekitten.com/g/300/300" />
-          </div>
-          <div class="small-4 columns">
-            <img class="m-grid--avatar" src="http://placekitten.com/g/300/300" />
-          </div>
-          <div class="small-4 columns">
-            <img class="m-grid--avatar" src="http://placekitten.com/g/300/300" />
-          </div>
-        </div>
-        <div>
-          <div class="small-4 columns">
-            <img class="m-grid--avatar" src="http://placekitten.com/g/300/300" />
-          </div>
-          <div class="small-4 columns">
-            <img class="m-grid--avatar" src="http://placekitten.com/g/300/300" />
-          </div>
-          <div class="small-4 columns">
-            <img class="m-grid--avatar" src="http://placekitten.com/g/300/300" />
-          </div>
-        </div>
-        <div>
-          <div class="small-4 push-2 columns">
-            <img class="m-grid--avatar" src="http://placekitten.com/g/300/300" />
-          </div>
-          <div class="small-4 pull-2 columns">
-            <img class="m-grid--avatar" src="http://placekitten.com/g/300/300" />
-          </div>
-        </div>
+  <body class="grid-uneven"><header class="m-header" role="banner">
+  <div class="alert-box warning text-center">
+    Work in Progress! Not quite ready for prime-time 
+  </div>
+  <div class="row">
+    <div class="medium-6 columns">
+      Foundation • Boilerplate
+    </div>
+    <div class="medium-6 columns">
+      <nav class="m-header--list">
+        <li>
+          <a href="https://github.com/flexbox/foundation-boilerplate/">Source code</a>
+        </li>
+        <li>
+          <a href="https://github.com/flexbox/foundation-boilerplate/blob/master/README.md">Docs</a>
+        </li>
+        <li>
+          <a href="/about">About</a>
+        </li>
+      </nav>
+    </div>
+  </div>
+  <div class="row text-center">
+    <div class="medium-8 medium-centered small-12 columns">
+      <h1 class="m-header--title">
+        Center uneven layout
+      </h1>
+      <p>
+        Grid system by example.
+      </p>
+    </div>
+  </div>
+</header><div class="row">
+  <div class="medium-8 medium-centered columns">
+    <h2 id="grid">Grid</h2>
+    <hr />
+    <p>Here’s how to center an uneven number of items with the grid system.</p>
+    
+  </div>
+</div>
+<div class="row">
+  <div class="small-6 small-centered columns">
+    <div>
+      <div class="small-4 columns">
+        <img alt="Crazy avatar of a cat" class="m-grid--avatar" src="http://placekitten.com/g/300/300" />
       </div>
-    </div><script src="assets/javascripts/application-b02924b0.js" type="text/javascript"></script>
+      <div class="small-4 columns">
+        <img alt="Crazy avatar of a cat" class="m-grid--avatar" src="http://placekitten.com/g/500/500" />
+      </div>
+      <div class="small-4 columns">
+        <img alt="Crazy avatar of a cat" class="m-grid--avatar" src="http://placekitten.com/g/600/600" />
+      </div>
+    </div>
+    <div>
+      <div class="small-4 columns">
+        <img alt="Crazy avatar of a cat" class="m-grid--avatar" src="http://placekitten.com/g/300/300" />
+      </div>
+      <div class="small-4 columns">
+        <img alt="Crazy avatar of a cat" class="m-grid--avatar" src="http://placekitten.com/g/800/800" />
+      </div>
+      <div class="small-4 columns">
+        <img alt="Crazy avatar of a cat" class="m-grid--avatar" src="http://placekitten.com/g/600/600" />
+      </div>
+    </div>
+    <div>
+      <div class="small-4 small-push-2 columns">
+        <img alt="Crazy avatar of a cat" class="m-grid--avatar" src="http://placekitten.com/g/500/500" />
+      </div>
+      <div class="small-4 small-pull-2 columns">
+        <img alt="Crazy avatar of a cat" class="m-grid--avatar" src="http://placekitten.com/g/300/300" />
+      </div>
+    </div>
+  </div>
+</div>
+<div class="m-section--inverse">
+  <div class="row">
+    <div class="medium-10 medium-centered columns">
+      <h4>
+        HTML
+      </h4><pre><code class="highlight html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"small-6 small-centered columns"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"small-4 columns"</span><span class="nt">&gt;</span>
+      (...)
+    <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"small-4 columns"</span><span class="nt">&gt;</span>
+      (...)
+    <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"small-4 columns"</span><span class="nt">&gt;</span>
+      (...)
+    <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"small-4 columns"</span><span class="nt">&gt;</span>
+      (...)
+    <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"small-4 columns"</span><span class="nt">&gt;</span>
+      (...)
+    <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"small-4 columns"</span><span class="nt">&gt;</span>
+      (...)
+    <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"small-4 small-push-2 columns"</span><span class="nt">&gt;</span>
+      (...)
+    <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"small-4 small-pull-2 columns"</span><span class="nt">&gt;</span>
+      (...)
+    <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+
+</code></pre>
+
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="medium-8 medium-centered columns">
+    <p>
+      The push/pull are why we needed a base-12 grid: While the layout appears to have three columns, it really needs to nudge the last two a little ways in. The result is a symmetrical layout that doesn't seem to have left anyone out.
+    </p>
+  </div>
+</div><footer class="m-footer" role="contentinfo">
+  <div class="row">
+    <div class="medium-2 columns">
+      <nav class="side-nav" role="navigation">
+        <li>
+          Navigation 
+        </li>
+        <li>
+          <a href="/">Homepage</a>
+        </li>
+        <li>
+          <a href="about">About</a>
+        </li>
+        <li>
+          Components 
+        </li>
+        <li>
+          <a href="buttons">Buttons</a>
+        </li>
+        <li>
+          <a href="type">Typography</a>
+        </li>
+        <li>
+          <a href="forms">Forms</a>
+        </li>
+        <li>
+          <a href="inputs">Inputs</a>
+        </li>
+        <li>
+          <a href="select">Select</a>
+        </li>
+      </nav>
+    </div>
+    <div class="medium-2 columns">
+      <nav class="side-nav" role="navigation">
+        <li>
+          Misc 
+        </li>
+        <li>
+          <a href="icons">Icons</a>
+        </li>
+        <li>
+          Templates 
+        </li>
+        <li>
+          <a href="templates/admin">Admin</a>
+        </li>
+        <li>
+          <a href="templates/homepage">Homepage</a>
+        </li>
+      </nav>
+    </div>
+    <div class="medium-8 columns">
+      <div class="m-footer--title">
+        You want to hack this Boilerplate ? 
+      </div>
+      <p>
+        If you have some ideas about crazy feature, amazing template, or simply want to test Sass files : 
+      </p>
+      <a class="button secondary large icon github" href="https://github.com/flexbox/foundation-boilerplate/">Fork on GitHub</a>
+      <p class="lead">
+        Or you can help me to fix bugs and <a href="https://github.com/flexbox/foundation-boilerplate/issues">report an issue &rarr;</a>
+      </p>
+    </div>
+  </div>
+  <hr />
+  <p class="text-center">
+    Foundation • Boilerplate is created, and maintained by <a href="human.txt">David Leuliette</a>, Last update <time datetime="26-02-2015 ">26-02-2015. </time>
+  </p>
+</footer><script src="assets/javascripts/application-b02924b0.js" type="text/javascript"></script>
   </body>
 </html>
